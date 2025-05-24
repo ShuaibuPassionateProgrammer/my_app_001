@@ -12,9 +12,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(),
+        drawer: Drawer(),
         backgroundColor: Colors.deepPurple[200],
         body: Form(
-          child: Container(),
+          child: Center(
+            child: Container(
+              width: 300,
+              height: 300,
+              color: Colors.blue
+            ),
+          ),
         ),
       ),
     );
