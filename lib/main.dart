@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.deepPurple[200]
+        backgroundColor: Colors.deepPurple[200],
+        drawer: Drawer(),
       ),
     );
   }
