@@ -11,11 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Center(
-        child: SizedBox(
-          width: 300,
-          height: 300,
-        ),
+      home: Scaffold(
+        
       ),
     );
   }
