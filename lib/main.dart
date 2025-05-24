@@ -11,18 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Flutter App"),
-        ),
-        body: Center(
-          child: ElevatedButton(
-            onPressed: () {
-              // Action when the button is pressed
-              print("Button Pressed!");
-            },
-            child: const Text("Press Me"),
-          ),
+      home: Center(
+        child: SizedBox(
+          width: 300,
+          height: 300,
         ),
       ),
     );
