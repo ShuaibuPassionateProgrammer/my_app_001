@@ -12,15 +12,46 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(),
-        drawer: Drawer(),
         backgroundColor: Colors.deepPurple[200],
-        body: Form(
-          child: Center(
-            child: Container(
-              width: 300,
-              height: 300,
-              color: Colors.blue
+        body: Padding(
+          padding: EdgeInsets.all(20),
+          child: Form(
+            child: Column(
+              children: <Widget>[
+                TextFormField(
+                  decoration: InputDecoration(
+                    hintText: "Email"
+                  ),
+                ),
+                TextFormField(
+                  decoration: InputDecoration(
+                    hintText: "Password"
+                  ),
+                ),
+                SizedBox(height: 20),
+                Row(
+                  children: [
+                    ElevatedButton(
+                      onPressed: () {
+                        MaterialPageRoute(
+                          builder: (context) => debugPrint(""),
+                        );
+                      },
+                      child: Text("Sign In"),
+                    ),
+                  ],
+                ),
+                TextButton(
+                  onPressed: () {
+                    // Navigator.push(
+                    //   MaterialPageRoute(
+                    //     builder: (context) => print(""),
+                    //   ),
+                    // ),
+                  },
+                  child: Text("Sign Up"),
+                ),
+              ],
             ),
           ),
         ),
