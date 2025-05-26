@@ -30,6 +30,7 @@ class _MyNavbar extends State<Navbar> {
             ),
             decoration: BoxDecoration(
               color: Colors.blue,
+              image: DecorationImage(),
             ),
           ),
         ],
