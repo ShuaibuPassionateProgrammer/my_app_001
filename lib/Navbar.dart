@@ -50,7 +50,7 @@ class _MyNavbar extends State<Navbar> {
           ),
           ListTile(
             leading: Icon(Icons.notifications),
-            title: Text("Notifications"),
+            title: Text("Request"),
             onTap: () {}
           ),
           ListTile(
