@@ -54,6 +54,7 @@ class _MyNavbar extends State<Navbar> {
             onTap: () {}
           ),
           ListTile(
+            leading: Icon(Icons.description),
           ),
         ],
       ),
