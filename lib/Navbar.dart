@@ -28,7 +28,9 @@ class _MyNavbar extends State<Navbar> {
                 ),
               ),
             ),
-            decoration: BoxDecoration(),
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
           ),
         ],
       ),
