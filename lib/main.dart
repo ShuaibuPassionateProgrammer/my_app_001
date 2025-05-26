@@ -5,16 +5,7 @@ void main() {}
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        drawer: Drawer(),
-        appBar: AppBar(),
-        body: const SafeArea(
-          child: Center()
-        ),
-      ),
-    );
-  }
+  State<MyApp> createState() => _MyAppState();
+
+  
 }
