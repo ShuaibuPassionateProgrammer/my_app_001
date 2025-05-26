@@ -11,7 +11,9 @@ class MyApp extends StatefulWidget {
       home: Scaffold(
         drawer: Drawer(),
         appBar: AppBar(),
-        body: const SafeArea(),
+        body: const SafeArea(
+          child: Center()
+        ),
       ),
     );
   }
