@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         drawer: Navbar(),
         appBar: AppBar(),
-        body: const SafeArea(
+        body: SafeArea(
           child: Padding(
             padding: EdgeInsets.zero,
             child: Container(),
