@@ -22,6 +22,8 @@ class _MyNavbar extends State<Navbar> {
               child: ClipOval(
                 child: Image.network(
                   "https://oflutter.com/wp-content/uploads/2021/02/girl-profile.png",
+                  width: 90,
+                  
                 ),
               ),
             ),
