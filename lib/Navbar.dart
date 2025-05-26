@@ -33,7 +33,7 @@ class _MyNavbar extends State<Navbar> {
               image: DecorationImage(
                 image: NetworkImage(
                   "https://oflutter.com/wp-content/uploads/2021/02/profile-bg3.jpg",
-                  
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
