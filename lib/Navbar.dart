@@ -40,6 +40,7 @@ class _MyNavbar extends State<Navbar> {
           ),
           ListTile(
             leading: Icon(Icons.favorite),
+            title: Text("Favorite"),
           ),
         ],
       ),
