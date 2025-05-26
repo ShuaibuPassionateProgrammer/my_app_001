@@ -58,7 +58,9 @@ class _MyNavbar extends State<Navbar> {
             title: Text("Policies"),
             onTap: () {}
           ),
-          ListTile(),
+          ListTile(
+            leading: Icon(Icons.exit_to_app),
+          ),
         ],
       ),
     );
