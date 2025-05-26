@@ -28,6 +28,7 @@ class _MyNavbar extends State<Navbar> {
                 ),
               ),
             ),
+            decoration: BoxDecoration(),
           ),
         ],
       ),
