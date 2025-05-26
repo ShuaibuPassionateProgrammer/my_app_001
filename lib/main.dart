@@ -18,7 +18,9 @@ class _MyAppState extends State<MyApp> {
         drawer: Drawer(),
         appBar: AppBar(),
         body: const SafeArea(
-          child: Padding(),
+          child: Padding(
+            padding: EdgeInsets.zero
+          ),
         ),
       ),
     );
