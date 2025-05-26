@@ -51,7 +51,8 @@ class _MyNavbar extends State<Navbar> {
           ListTile(
             leading: Icon(Icons.notifications),
             title: Text("Request"),
-            onTap: () {}
+            onTap: () {},
+            trailing: Container(),
           ),
           ListTile(
             leading: Icon(Icons.description),
