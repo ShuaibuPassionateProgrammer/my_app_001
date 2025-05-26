@@ -57,7 +57,8 @@ class _MyNavbar extends State<Navbar> {
               width: 20,
               height: 20,
               child: Text(
-                "*"
+                "8",
+
               ),
             ),
           ),
