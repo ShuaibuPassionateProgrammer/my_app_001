@@ -43,6 +43,7 @@ class _MyNavbar extends State<Navbar> {
             title: Text("Favorite"),
             onTap: () => {}
           ),
+          ListTile(),
         ],
       ),
     );
