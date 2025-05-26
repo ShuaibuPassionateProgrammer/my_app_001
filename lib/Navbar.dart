@@ -11,6 +11,8 @@ class _MyNavbar extends State<Navbar> {
 
   @override
   Widget build(BuildContext context) {
-    return Drawer();
+    return Drawer(
+      child: ListView(),
+    );
   }
 }
