@@ -33,7 +33,9 @@ class _MyAppState extends State<MyApp> {
                     hintText: "Email"
                   ),
                 ),
-                TextFormField(),
+                TextFormField(
+                  decoration: InputDecoration()
+                ),
               ],
             ),
           ),
