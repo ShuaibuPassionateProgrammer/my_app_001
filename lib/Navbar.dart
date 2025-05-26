@@ -48,7 +48,9 @@ class _MyNavbar extends State<Navbar> {
             title: Text("Share"),
             onTap: () => {}
           ),
-          ListTile(),
+          ListTile(
+            leading: Icon(Icons.notifications),
+          ),
         ],
       ),
     );
