@@ -38,7 +38,9 @@ class _MyNavbar extends State<Navbar> {
               ),
             ),
           ),
-          ListTile()
+          ListTile(
+            leading: Icon(Icons.favorite),
+          ),
         ],
       ),
     );
