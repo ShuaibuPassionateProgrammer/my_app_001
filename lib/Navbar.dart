@@ -23,7 +23,7 @@ class _MyNavbar extends State<Navbar> {
                 child: Image.network(
                   "https://oflutter.com/wp-content/uploads/2021/02/girl-profile.png",
                   width: 90,
-                  
+                  height: 90
                 ),
               ),
             ),
