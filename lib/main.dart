@@ -7,6 +7,8 @@ class MyApp extends StatefulWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: Scaffold(),
+    );
   }
 }
