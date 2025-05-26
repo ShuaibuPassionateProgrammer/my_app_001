@@ -9,6 +9,7 @@ class MyApp extends StatefulWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        drawer: Drawer(),
         appBar: AppBar(),
       ),
     );
