@@ -38,7 +38,9 @@ class _MyAppState extends State<MyApp> {
                     hintText: "Password"
                   ),
                 ),
-                ElevatedButton(),
+                ElevatedButton(
+                  child: Text("Login"),
+                ),
               ],
             ),
           ),
