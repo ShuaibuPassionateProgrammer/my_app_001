@@ -12,7 +12,9 @@ class _MyNavbar extends State<Navbar> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView(),
+      child: ListView(
+        padding: EdgeInsets.zero
+      ),
     );
   }
 }
