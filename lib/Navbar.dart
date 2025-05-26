@@ -56,12 +56,14 @@ class _MyNavbar extends State<Navbar> {
               color: Colors.red,
               width: 20,
               height: 20,
-              child: Center(
-                child: Text(
-                  "8",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 12
+              child: ClipOval(
+                child: Center(
+                  child: Text(
+                    "8",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 12
+                    ),
                   ),
                 ),
               ),
