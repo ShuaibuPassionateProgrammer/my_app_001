@@ -14,7 +14,9 @@ class _MyNavbar extends State<Navbar> {
     return Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
-        children: [],
+        children: [
+          UserAccountsDrawerHeader(),
+        ],
       ),
     );
   }
