@@ -53,6 +53,8 @@ class _MyNavbar extends State<Navbar> {
             title: Text("Notifications"),
             onTap: () {}
           ),
+          ListTile(
+          ),
         ],
       ),
     );
