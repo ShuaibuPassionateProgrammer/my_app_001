@@ -54,6 +54,7 @@ class _MyNavbar extends State<Navbar> {
             onTap: () {},
             trailing: Container(
               color: Colors.red,
+              width: 20
             ),
           ),
           ListTile(
