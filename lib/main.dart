@@ -28,7 +28,9 @@ class _MyAppState extends State<MyApp> {
             padding: EdgeInsets.zero,
             child: Column(
               children: [
-                TextFormField(),
+                TextFormField(
+                  decoration: InputDecoration()
+                ),
               ],
             ),
           ),
