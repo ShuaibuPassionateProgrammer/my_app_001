@@ -29,7 +29,9 @@ class _MyAppState extends State<MyApp> {
             child: Column(
               children: [
                 TextFormField(
-                  decoration: InputDecoration()
+                  decoration: InputDecoration(
+                    hintText: "Email"
+                  ),
                 ),
               ],
             ),
