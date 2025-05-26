@@ -34,7 +34,9 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 TextFormField(
-                  decoration: InputDecoration()
+                  decoration: InputDecoration(
+                    hintText: "Password"
+                  ),
                 ),
               ],
             ),
