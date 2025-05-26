@@ -60,6 +60,7 @@ class _MyNavbar extends State<Navbar> {
           ),
           ListTile(
             leading: Icon(Icons.exit_to_app),
+            title: Text("Exit"),
           ),
         ],
       ),
