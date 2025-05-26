@@ -56,7 +56,9 @@ class _MyNavbar extends State<Navbar> {
               color: Colors.red,
               width: 20,
               height: 20,
-              child: Text(),
+              child: Text(
+                "*"
+              ),
             ),
           ),
           ListTile(
