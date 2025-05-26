@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.zero,
-            child: Container(),
+            child: Column(),
           ),
         ),
       ),
