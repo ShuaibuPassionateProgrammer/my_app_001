@@ -19,7 +19,6 @@ class _MyNavbar extends State<Navbar> {
             accountName: Text("shuaibu.com"),
             accountEmail: Text("programmer@shuaibu.com"),
             currentAccountPicture: ClipOval(),
-            decoration: BoxDecoration(),
           ),
         ],
       ),
