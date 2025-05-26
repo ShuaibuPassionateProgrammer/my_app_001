@@ -52,7 +52,9 @@ class _MyNavbar extends State<Navbar> {
             leading: Icon(Icons.notifications),
             title: Text("Request"),
             onTap: () {},
-            trailing: Container(),
+            trailing: Container(
+              color: Colors.red,
+            ),
           ),
           ListTile(
             leading: Icon(Icons.description),
