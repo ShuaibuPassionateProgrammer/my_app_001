@@ -7,4 +7,10 @@ class Navbar extends StatefulWidget {
   State<Navbar> createState() => _MyNavbar();
 }
 
-class _MyNavbar extends State<Navbar> {}
+class _MyNavbar extends State<Navbar> {
+
+  @override
+  Widget build(BuildContext context) {
+    
+  }
+}
