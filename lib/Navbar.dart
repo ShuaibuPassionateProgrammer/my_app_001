@@ -58,7 +58,7 @@ class _MyNavbar extends State<Navbar> {
               height: 20,
               child: Text(
                 "8",
-
+                style: TextStyle(),
               ),
             ),
           ),
