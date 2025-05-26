@@ -17,6 +17,7 @@ class _MyNavbar extends State<Navbar> {
         children: [
           UserAccountsDrawerHeader(
             accountName: Text("shuaibu.com"),
+            accountEmail: Text("programmer@shuaibu.com"),
           ),
         ],
       ),
