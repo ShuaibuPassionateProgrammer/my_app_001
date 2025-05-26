@@ -43,7 +43,9 @@ class _MyNavbar extends State<Navbar> {
             title: Text("Favorite"),
             onTap: () => {}
           ),
-          ListTile(),
+          ListTile(
+            leading: Icon(Icons.share),
+          ),
         ],
       ),
     );
