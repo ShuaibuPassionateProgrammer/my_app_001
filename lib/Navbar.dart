@@ -6,3 +6,5 @@ class Navbar extends StatefulWidget {
   @override
   State<Navbar> createState() => _MyNavbar();
 }
+
+class _MyNavbar extends State<Navbar> {}
