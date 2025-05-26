@@ -15,7 +15,9 @@ class _MyNavbar extends State<Navbar> {
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
-          UserAccountsDrawerHeader(),
+          UserAccountsDrawerHeader(
+            accountName: Text("shuaibu.com"),
+          ),
         ],
       ),
     );
