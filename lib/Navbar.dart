@@ -18,7 +18,9 @@ class _MyNavbar extends State<Navbar> {
           UserAccountsDrawerHeader(
             accountName: Text("shuaibu.com"),
             accountEmail: Text("programmer@shuaibu.com"),
-            currentAccountPicture: ClipOval(),
+            currentAccountPicture: CircleAvatar(
+              
+            ),
           ),
         ],
       ),
