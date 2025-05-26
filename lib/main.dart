@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        drawer: Drawer(),
+        drawer: Navbar(),
         appBar: AppBar(),
         body: const SafeArea(
           child: Padding(
