@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         drawer: Drawer(),
         appBar: AppBar(),
-        body: 
+        body: SafeArea(),
       ),
     );
   }
